@@ -1,2 +1,2 @@
-# linux-selflearning
+# linux-self-learning
 Self learning
