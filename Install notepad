@@ -1,6 +1,23 @@
-Open command line
+linux下安装/卸载Notepad++
 
-simon@simon-E5470:~$ snap install notepadqq
+安装：
 
+1,打开终端，ctrl+T
 
-Finish
+2，输入命令：
+
+sudo add-apt-repository ppa:notepadqq-team/notepadqq//添加安装包
+
+sudo apt-get update//更新最新版本，这步用户自己选择，可以直接用老版本的
+
+sudo apt-get install notepadqq//安装 
+
+卸载:
+
+1，打开终端,ctrl+T
+
+2，输入命令： 
+
+sudo apt-get remove notepadqq //卸载
+
+sudo add-apt-repository --removeppa:notepadqq-team/notepadqq//删除安装文件
